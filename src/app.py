@@ -16,11 +16,11 @@ except FileNotFoundError:
 
 
 # Factorization
-with open('./src/factorize_data/factorized_region.json') as f:
+with open('factorize_data/factorized_region.json') as f:
     region_dict = json.load(f)
-with open('./src/factorize_data/factorized_sex.json') as f:
+with open('factorize_data/factorized_sex.json') as f:
     sex_dict = json.load(f)
-with open('./src/factorize_data/factorized_smoker.json') as f:
+with open('factorize_data/factorized_smoker.json') as f:
     smoker_dict = json.load(f)
 
 # Inputs of the user
