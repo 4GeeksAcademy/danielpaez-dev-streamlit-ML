@@ -7,8 +7,8 @@ import json
 st.title('Medical Charge Prediction')
 
 # Charge of the model and the scaler
-model = load(open('./models/final_model.pkl', 'rb'))
-scaler = load(open('./models/scaler_without_outliers.pkl', 'rb'))
+model = load(open('./src/final_model.pkl', 'rb'))
+scaler = load(open('./src/scaler_without_outliers.pkl', 'rb'))
 
 # Factorization
 with open('./src/factorize_data/factorized_region.json') as f:
